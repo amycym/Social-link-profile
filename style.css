@@ -1,5 +1,16 @@
+
+
+:root{
+    --crl-green: hsl(75, 94%, 57%);
+    --crl-grey: Grey: hsl(0, 0%, 20%);
+    --crl-darkGrey: hsl(0, 0%, 12%);
+    --crl-offBlack: hsl(0, 0%, 8%);
+    --font-inter: "Inter", sans-serif;
+}
+
 *,
 *::before,
 *::after{
     box-sizing: border-box;
 }
+
