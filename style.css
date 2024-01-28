@@ -2,7 +2,7 @@
 
 :root{
     --crl-green: hsl(75, 94%, 57%);
-    --crl-grey: Grey: hsl(0, 0%, 20%);
+    --crl-grey: hsl(0, 0%, 20%);
     --crl-darkGrey: hsl(0, 0%, 12%);
     --crl-offBlack: hsl(0, 0%, 8%);
     --font-inter: "Inter", sans-serif;
@@ -13,4 +13,42 @@
 *::after{
     box-sizing: border-box;
 }
+body{
+    background-color: var(--crl-offBlack);
+    font-family: var(--font-inter);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
+.card{
+    outline: solid 2px red;
+    background-color: var(--crl-darkGrey);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+img{
+    border-radius: 100px;
+    width: 30%;
+}
+
+.states{
+    color: var(--crl-green);
+    font-weight: 600;
+}
+
+.intro{
+    margin: 30px ;
+}
+
+li{
+    background-color: var(--crl-grey);
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 4rem);
+    border-radius: 10px;
+}
